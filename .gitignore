@@ -1,0 +1,33 @@
+# Dependencies & Build Outputs
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Android native build artifacts (compiled in GitHub Actions or local Android Studio)
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/captures/
+android/.idea/
+*.iml
+
+# Raw brand reference assets in workspace root (keep public/ and android/res tracked)
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.pdf
+/*.docx
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
